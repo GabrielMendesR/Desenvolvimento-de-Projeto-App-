@@ -12,6 +12,3 @@ Descrição do Projeto:
   .Mapa de Eventos: O mapa de eventos vai mostrar eventos proximos, ao clicar em um dos icones de evento o usuario sera redirecionado para a pagina do evento.
   
   .Barra de Acesso Rapido: Essa barra se encontra na parte inferio de todas as paginas e permite rapido aceso para o mapa, a pagina principal e a pargina do usuario.
-
-Link Startup (Site): https://sites.google.com/edu.unifil.br/i-vents/in%C3%ADcio
-
