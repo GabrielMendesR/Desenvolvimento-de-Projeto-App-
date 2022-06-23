@@ -1,5 +1,7 @@
 # Desenvolvimento-de-Projeto-App-
 
+Link Startup (Site): https://sites.google.com/edu.unifil.br/i-vents/in%C3%ADcio
+
 Descrição do Projeto: 
   .Pagina Principal: Na pagina inicial o usuario tera acesso a uma barra de pesquisa, a qual tem intuito de facilitar encontrar um evento ou tag especifico, logo a baixo da barra de pesquisa encontrase o feed de eventos, nele os eventos estarão organizados do mais recente até o mais antigo, clicar em um dos posts de evento ira redirecionar o usuario para a pagina daquele evento.
   
