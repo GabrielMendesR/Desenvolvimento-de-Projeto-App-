@@ -3,6 +3,7 @@
 Link Startup (Site): https://sites.google.com/edu.unifil.br/i-vents/in%C3%ADcio
 
 Descrição do Projeto: 
+
   .Pagina Principal: Na pagina inicial o usuario tera acesso a uma barra de pesquisa, a qual tem intuito de facilitar encontrar um evento ou tag especifico, logo a baixo da barra de pesquisa encontrase o feed de eventos, nele os eventos estarão organizados do mais recente até o mais antigo, clicar em um dos posts de evento ira redirecionar o usuario para a pagina daquele evento.
   
   .Pagina de Evento: Na area superior da pagina de eventos é possivel encontrar a data do evento junto a uma serie de imagens do mesmo. A baixo das imagens do evento estara presente a descrição do evento, incluindo mas não limitada a data, horario e local. Na parte inferior da pagina do evento é possivel visualizar comentarios de outros usuarios a respeito do evento.
