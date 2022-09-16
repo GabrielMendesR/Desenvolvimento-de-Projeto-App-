@@ -1,31 +1,56 @@
-
 <ion-content [fullscreen]="true">
-  <div id="posicionamento">
+
+  <div>
     <ion-grid>
-      <ion-row>
-        <ion-col size="9">
+
+      <ion-row id="posicionamento">
+        <ion-col>
           <ion-item>
-            <ion-input placeholder="Nome de um produto" [(ngModel)]="texto"></ion-input>
-           
+            <ion-input placeholder="Produto" [(ngModel)]="texto" (keyup.enter)="adiciona()"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input placeholder="Preço" type="number" [(ngModel)]="preco" (keyup.enter)="adiciona()">
+            </ion-input>
           </ion-item>
         </ion-col>
+
         <ion-col size="3">
-          <ion-button color="primary" size="small" (click)="adiciona()">
-            <ion-icon name="save-outline"></ion-icon>
+          <ion-button color="primary" size="small" style="height: 100px; width: 60px;" (click)="adiciona()">
+            <ion-icon name="cart-outline"></ion-icon>
           </ion-button>
         </ion-col>
       </ion-row>
+
       <ion-row>
         <ion-col>
-          <ion-item *ngFor = "let elemento_da_lista of variavel_lista">
-            {{elemento_da_lista}}
-            <ion-button color="danger" size="small" >
-              <ion-icon name="trash-outline"></ion-icon>
-            </ion-button>
+          <ion-item class="ion-item" *ngFor="let elemento_da_lista of variavel_lista">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="10" class="ion-text-capitalize">
+                  <ion-icon style="padding-left: 8% " name="bag-outline"></ion-icon> {{elemento_da_lista[1][0]}}
+                </ion-col>
+                <ion-col>
+                  <ion-icon id="dinheiro" name="cash-outline"></ion-icon> R${{elemento_da_lista[1][1]}}
+                </ion-col>
+                <ion-col style="max-width: 30%;">
+                  <ion-button color="danger" style="width: 50px; height: 30px;" (click)="remove(elemento_da_lista[0])">
+                    <ion-icon style="width: 50px; height: 30px;" name="trash-outline"></ion-icon>
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+
+            </ion-grid>
           </ion-item>
         </ion-col>
       </ion-row>
+
     </ion-grid>
 
-  </div>  
+  </div>
+</ion-content>
+
+<ion-content class="cont2">
+  <ion-grid id="total">
+    <h2 style="width: 250px;text-align:right">Total: R${{total}}</h2>
+  </ion-grid>
 </ion-content>

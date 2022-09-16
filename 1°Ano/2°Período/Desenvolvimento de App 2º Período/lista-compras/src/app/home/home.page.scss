@@ -1,4 +1,38 @@
+.ios {
+  --ion-background-color: rgb(221, 216, 151);
+}
+
+.md {
+  --ion-background-color: rgb(221, 216, 151);
+}
+
+.cont2 {
+  max-height: 12%;
+  bottom: 0%;
+}
+
 #posicionamento {
-  padding-top: 20%;
+  padding: 5%;
+  padding-top: 10%;
+}
+
+.ion-item {
+  padding: 5%;
+
+}
+
+#lixeira {
+  right: 0%;
+}
+
+#dinheiro {
+  color: green;
   padding-left: 10%;
+  padding-top: 10px;
+}
+
+#total {
+  padding-right: 0%;
+  color: rgb(68, 125, 247);
+  max-width: max-content;
 }
